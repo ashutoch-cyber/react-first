@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
-  color: #fff;
+  color: #130b0b;
  }
 
  html,body{
@@ -11,41 +11,97 @@
   width: 100%;
  }
 
- body{
-  background-color: black;
- }
+  .parent{
+    height: 100vh;
+    width: 100%;
+    background-color:#b1adad ;
+    padding: 30px;
+  }
 
- .parent{
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  .card{
+    height: 340px;
+    width: 290px;
+    background-color: #f2efef;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
- }
- .cards{
-  width: 200px;
-  border: 1px solid whitesmoke;
-  padding: 20px;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #222;
- }
+  .card .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:40px ;
+  }
 
- .cards img{
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  object-fit: cover;
- }
+  .top img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    padding: 2px;
+  }
 
- .cards p{
-  margin: 8px 2px;
- }
- .cards button{
-  padding: 10px 20px;
-  background-color: #111;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
- }
+  .top button{
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #dadada;
+     padding: 4px 8px;
+     font-size: 11px;
+     border-radius: 5px;
+     gap: 3px;
+     background-color:transparent ;
+     color: #676565;
+  }
+
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #b1b1b1;
+    padding-top: 15px;
+  }
+
+  .bottom p{
+    font-size: 10px;
+    color: #8b8b8b;
+  }
+
+  .bottom button{
+    color: #fff;
+    background-color: #111;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+   .center h3{
+    font-size: 18px;
+     
+   }
+
+   .center h3 span{
+     font-weight: 400;
+     font-size: 10px;
+     color: #8b8b8b;
+   }
+
+   .center h2{
+    font-size:21px ;
+   }
+
+   .center .middle{
+     display: flex;
+     gap: 10px;
+     padding-top: 10px;
+   }
+
+   .center .middle h4{
+    font-size: 15px;
+    background-color: #dadada;
+    color: black;
+    padding: 3px 6px;
+    font-weight: 500;
+   }
