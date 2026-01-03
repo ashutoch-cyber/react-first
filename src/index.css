@@ -4,11 +4,13 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
   color: #130b0b;
+  
  }
 
  html,body{
   height: 100%;
   width: 100%;
+  
  }
 
   .parent{
@@ -16,6 +18,9 @@
     width: 100%;
     background-color:#b1adad ;
     padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 
   .card{
